@@ -1,5 +1,6 @@
+var a;
 function username() {
-  var n = document.getElementById("name").value
-  window.alert(n)
-  document.getElementById("placeholder").innerHTML = n
+  a = document.getElementById("name").value
+  localStorage.setItem('uName',a);
+  location.href = "two.html"
 }
