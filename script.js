@@ -7,6 +7,7 @@ function getName() {
   //move the user to page two.html
   location.href = "two.html";
 }
+
 function getUser() {
   var b = localStorage.getItem('uName');
   document.getElementById("placeholder").innerText = "Hello " + b
