@@ -1,7 +1,7 @@
 var a;
 function getName() {
   //get value from the input field
-  a = document.getElementById("name").value;
+  a = document.getElementById("username").value;
   //create LS key with value of "a"
   localStorage.setItem('uName',a);
   //move the user to page two.html
