@@ -10,6 +10,6 @@ function getName() {
 
 function getUser() {
   var b = localStorage.getItem('uName');
-  document.getElementById("placeholder").innerText = "Hello " + b
+  document.getElementById("placeholder").innerHTML = "Hello " + b
 }
 
