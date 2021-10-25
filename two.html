@@ -10,7 +10,11 @@
   <body>
     <p id = "placeholder"></p>
     <script>
-      getUser();
+      window.onload = function() {
+        var name = localStorage.getItem("userName");
+        window.alert('hello'+ name)
+      }
+      
     </script>
     <a href = "index.html">home page</a>
     
